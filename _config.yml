@@ -5,8 +5,8 @@ title: "chanwoo"
 description: "chanwoo's blog,use Jekyll and github pages."
 keywords: "chanwoo,pcwpower,blog,Jekyll,github"
 baseurl: "/"
-url: "http://www.jack003.com"
-# url: "http://127.0.0.1:4000"
+# url: "http://www.jack003.com"
+url: "http://127.0.0.1:4000"
 
 # blog img path
 img_path: 'http://www.jack003.com/static/img/blog'
@@ -19,7 +19,7 @@ author:
   email: 'pcwpower@naver.com'
   facebook_username: 'pcwpower'
   github_username: 'pcwpower'
-  head_img: 'static/img/landing/chan.png'
+  head_img: 'static/img/landing/chan.jpg'
 
 # social link
 jingyu:
