@@ -6880,16 +6880,11 @@ body.landing-page {
   margin: auto;
 }
 .landing-page .social-icon a {
-  background: #3385FF;
-  color: #fff;
-  padding: 4px 8px;
+  color: #3385FF;
   height: 28px;
   width: 28px;
   display: block;
-  border-radius: 50px;
-}
-.landing-page .social-icon a:hover {
-  background: #3385FF;
+  font-size: 20px;
 }
 .landing-page .img-small {
   height: 88px;
@@ -6929,8 +6924,15 @@ body.landing-page {
 .landing-page .testimonials {
   padding-top: 80px;
   padding-bottom: 90px;
-  background-color: #3385FF;
-  background-image: url('../img/landing/avatar_all.png');
+  background-image: url('../img/landing/notebook.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.landing-page .my_Blog{
+  background: #3385FF;
 }
 .landing-page .big-icon {
   font-size: 56px !important;
