@@ -7127,6 +7127,12 @@ body.landing-page {
     border-top:0;
     color:#fff;
   }
+  .landing-page .navbar-default .navbar-nav > .active > a,
+  .landing-page .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #3385FF;
+    border-top:0;
+    color:#fff;
+  }
   .landing-page .carousel-control {
     display: none;
   }
@@ -7145,6 +7151,9 @@ body.landing-page {
     background-color: #ffffff;
     padding: 9px 10px;
     border: none;
+  }
+  .navbar-default .navbar-collapse{
+    margin-top: 5px;
   }
 }
 body.rtls {
