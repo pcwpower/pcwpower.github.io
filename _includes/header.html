@@ -70,6 +70,13 @@
                             <li>
                         {% endif %}
                             <a class="page-scroll" href="/life/">{{ site.index.life }}</a></li>
+                            
+                        {% if page.title == site.index.bookmark %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                            <a class="page-scroll" href="/bookmark/">{{ site.index.bookmark }}</a></li>
                     </ul>
                 </div>
             </div>
